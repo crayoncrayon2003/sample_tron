@@ -1,0 +1,7 @@
+version: '3'
+services:
+  itron-env:
+    build: .
+    volumes:
+      - ./src:/work
+    tty: true
